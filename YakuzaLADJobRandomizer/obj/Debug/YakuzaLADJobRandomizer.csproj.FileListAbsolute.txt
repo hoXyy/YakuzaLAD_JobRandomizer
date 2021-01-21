@@ -1,0 +1,9 @@
+C:\Users\hoxtf\source\repos\YakuzaLADJobRandomizer\YakuzaLADJobRandomizer\bin\Debug\YakuzaLADJobRandomizer.exe
+C:\Users\hoxtf\source\repos\YakuzaLADJobRandomizer\YakuzaLADJobRandomizer\bin\Debug\YakuzaLADJobRandomizer.pdb
+C:\Users\hoxtf\source\repos\YakuzaLADJobRandomizer\YakuzaLADJobRandomizer\obj\Debug\YakuzaLADJobRandomizer.csprojAssemblyReference.cache
+C:\Users\hoxtf\source\repos\YakuzaLADJobRandomizer\YakuzaLADJobRandomizer\obj\Debug\YakuzaLADJobRandomizer.MainWindow.resources
+C:\Users\hoxtf\source\repos\YakuzaLADJobRandomizer\YakuzaLADJobRandomizer\obj\Debug\YakuzaLADJobRandomizer.Properties.Resources.resources
+C:\Users\hoxtf\source\repos\YakuzaLADJobRandomizer\YakuzaLADJobRandomizer\obj\Debug\YakuzaLADJobRandomizer.csproj.GenerateResource.cache
+C:\Users\hoxtf\source\repos\YakuzaLADJobRandomizer\YakuzaLADJobRandomizer\obj\Debug\YakuzaLADJobRandomizer.csproj.CoreCompileInputs.cache
+C:\Users\hoxtf\source\repos\YakuzaLADJobRandomizer\YakuzaLADJobRandomizer\obj\Debug\YakuzaLADJobRandomizer.exe
+C:\Users\hoxtf\source\repos\YakuzaLADJobRandomizer\YakuzaLADJobRandomizer\obj\Debug\YakuzaLADJobRandomizer.pdb
