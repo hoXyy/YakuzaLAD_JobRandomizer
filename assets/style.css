@@ -1,0 +1,61 @@
+@import url('./static/fonts.css');
+
+html, body {
+    font-family: 'metanormal';
+    background: url(static/background.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#title, #credits, #jobs_title {
+    font-family: 'edo_szregular';
+}
+
+#jobs {
+    font-size: 24px;
+}
+
+#content {
+    height: 100%;
+    width: 920px;
+    background-color: rgba(0,0,0,0.85);
+    color: white;
+    text-shadow: 2px 2px black;
+    border-left: 2px solid yellow;
+    border-right: 2px solid yellow;
+}
+
+.checkbox-1x {
+    transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+}
+.checkbox-2x {
+    transform: scale(2);
+    -webkit-transform: scale(2);
+}
+
+.checkmark { 
+    position: absolute;
+    display:none;
+    left:35px;
+}
+
+.character {
+    user-select: none !important;
+}
+
+.left
+{
+  float: left;
+}
+
+.right
+{
+  float: right;
+}
+
+.disabled {
+    display: none;
+}

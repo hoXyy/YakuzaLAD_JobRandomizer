@@ -1,8 +1,0 @@
-C:\Users\hoxtf\source\repos\YakuzaLADJobRandomizer\YakuzaLADJobRandomizer\bin\Release\YakuzaLADJobRandomizer.exe
-C:\Users\hoxtf\source\repos\YakuzaLADJobRandomizer\YakuzaLADJobRandomizer\bin\Release\YakuzaLADJobRandomizer.pdb
-C:\Users\hoxtf\source\repos\YakuzaLADJobRandomizer\YakuzaLADJobRandomizer\obj\Release\YakuzaLADJobRandomizer.MainWindow.resources
-C:\Users\hoxtf\source\repos\YakuzaLADJobRandomizer\YakuzaLADJobRandomizer\obj\Release\YakuzaLADJobRandomizer.Properties.Resources.resources
-C:\Users\hoxtf\source\repos\YakuzaLADJobRandomizer\YakuzaLADJobRandomizer\obj\Release\YakuzaLADJobRandomizer.csproj.GenerateResource.cache
-C:\Users\hoxtf\source\repos\YakuzaLADJobRandomizer\YakuzaLADJobRandomizer\obj\Release\YakuzaLADJobRandomizer.csproj.CoreCompileInputs.cache
-C:\Users\hoxtf\source\repos\YakuzaLADJobRandomizer\YakuzaLADJobRandomizer\obj\Release\YakuzaLADJobRandomizer.exe
-C:\Users\hoxtf\source\repos\YakuzaLADJobRandomizer\YakuzaLADJobRandomizer\obj\Release\YakuzaLADJobRandomizer.pdb

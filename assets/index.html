@@ -1,0 +1,193 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+
+    <title>Yakuza: Like a Dragon Job Randomizer</title>
+  </head>
+  <body>
+    <div id="content" class="container-fluid h-100 min-vh-100">
+      <br>
+      <div id="logo" class="col text-center">
+        <img src="static/y7_logo_tm.png" width="55%">
+        <h1 id="title">Job Randomizer</h1>
+        <h3 id="credits">by hoxi</h3>
+      </div>
+      <br>
+      <div id="options" class="col text-center">
+        <div class="form-check" style="font-size: 20px;">
+          <input id="dlc" type="checkbox" class="form-check-input checkbox-1x">
+          <label for="dlc" class="form-check-label">Include DLC jobs</label>
+        </div>
+        <br>
+        <div id="buttons">
+          <div id="ichiban" class="row character" style="cursor: pointer;" onclick="handleCharacterClick('ichi')">
+            <img src="static/characters/Kasugaeyes.png" alt="Ichiban" height="60px" style="float: left;">
+            <span class="align-middle" style="font-size: 32px; float: left;">Ichiban</span>
+            <div id="ichi-checkmark" class="checkmark">
+              <svg width="56" height="56" viewBox="0 0 24 24" style="fill: green"><path d="M20.285 2l-11.285 11.567-5.286-5.011-3.714 3.716 9 8.728 15-15.285z"></path></svg>
+            </div>
+          </div>
+          <div id="adachi" class="row character" style="cursor: pointer;" onclick="handleCharacterClick('adachi')">
+            <img src="static/characters/Adachi_Eyes.png" alt="Adachi" height="60px" style="float: left;">
+            <span class="align-middle" style="font-size: 32px; float: left;">Adachi</span>
+            <div id="adachi-checkmark" class="checkmark">
+              <svg width="56" height="56" viewBox="0 0 24 24" style="fill: green"><path d="M20.285 2l-11.285 11.567-5.286-5.011-3.714 3.716 9 8.728 15-15.285z"></path></svg>
+            </div>
+            
+          </div>
+          <div id="Nanba" class="row character"  style="cursor: pointer;" onclick="handleCharacterClick('nanba')">
+            <img src="static/characters/Nanbaeyes.png" alt="Nanba" height="60px" style="float: left;">
+            <span class="align-middle" style="font-size: 32px; float: left;">Nanba</span>
+            <div id="nanba-checkmark" class="checkmark">
+              <svg width="56" height="56" viewBox="0 0 24 24" style="fill: green"><path d="M20.285 2l-11.285 11.567-5.286-5.011-3.714 3.716 9 8.728 15-15.285z"></path></svg>
+            </div>
+          </div>
+          <div id="saeko" class="row character"  style="cursor: pointer;" onclick="handleCharacterClick('saeko')">
+            <img src="static/characters/Saeko_Eyes.png" alt="Saeko" height="60px" style="float: left;">
+            <span class="align-middle" style="font-size: 32px; float: left;">Saeko</span>
+            <div id="saeko-checkmark" class="checkmark">
+              <svg width="56" height="56" viewBox="0 0 24 24" style="fill: green"><path d="M20.285 2l-11.285 11.567-5.286-5.011-3.714 3.716 9 8.728 15-15.285z"></path></svg>
+            </div>
+          </div>
+          <div id="eri" class="row character"  style="cursor: pointer;" onclick="handleCharacterClick('eri')">
+            <img src="static/characters/Eri_Eyes.png" alt="Eri" height="60px" style="float: left;">
+            <span class="align-middle" style="font-size: 32px; float: left;">Eri</span>
+            <div id="eri-checkmark" class="checkmark">
+              <svg width="56" height="56" viewBox="0 0 24 24" style="fill: green"><path d="M20.285 2l-11.285 11.567-5.286-5.011-3.714 3.716 9 8.728 15-15.285z"></path></svg>
+            </div>
+          </div>
+          <div id="joongi" class="row character"  style="cursor: pointer;" onclick="handleCharacterClick('joongi')">
+            <img src="static/characters/Joon-gi_Han_Eyes.png" alt="Joon-gi Han" height="60px" style="float: left;">
+            <span class="align-middle" style="font-size: 32px; float: left;">Joon-gi Han</span>
+            <div id="joongi-checkmark" class="checkmark">
+              <svg width="56" height="56" viewBox="0 0 24 24" style="fill: green"><path d="M20.285 2l-11.285 11.567-5.286-5.011-3.714 3.716 9 8.728 15-15.285z"></path></svg>
+            </div>
+          </div>
+          <div id="zhao" class="row character"  style="cursor: pointer;" onclick="handleCharacterClick('zhao')">
+            <img src="static/characters/Tianyou_Zhao_Eyes.png" alt="Zhao" height="60px" style="float: left;">
+            <p class="left" style="font-size: 32px;">Zhao</p>
+            <div id="zhao-checkmark" class="checkmark">
+              <svg width="56" height="56" viewBox="0 0 24 24" style="fill: green"><path d="M20.285 2l-11.285 11.567-5.286-5.011-3.714 3.716 9 8.728 15-15.285z"></path></svg>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="randomize">
+        <div id="jobs" class="col text-center">
+          <h1 class="align-middle disabled" id="jobs_title">And your team is...</h1>
+          <br>
+          <p class="disabled" id="ichi-job">Ichiban:</p>
+          <p class="disabled" id="adachi-job">Adachi:</p>
+          <p class="disabled" id="nanba-job">Nanba:</p>
+          <p class="disabled" id="saeko-job">Saeko:</p>
+          <p class="disabled" id="eri-job">Eri:</p>
+          <p class="disabled" id="joongi-job">Joon-gi Han:</p>
+          <p class="disabled" id="zhao-job">Zhao:</p>
+
+        </div>
+        <a href="#" class="btn btn-success btn-block align-middle" style="font-family: 'edo_szregular'; font-size: 36px;" onclick="randomizeJobs()">Randomize!</a>
+        <br>
+      </div>
+    </div>
+    
+    
+    
+    
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/lodash@4.17.21/lodash.min.js"></script>
+    <script>
+      var selectedCharacters = [];
+
+      function handleCharacterClick(character) {
+        var element = window.document.getElementById(`${character}-checkmark`);
+        if (element.style.display === "none") {
+          element.style.display = "unset";
+          selectedCharacters.push(character);
+        }
+        else {
+          element.style.display = "none";
+          for( var i = 0; i < selectedCharacters.length; i++) { 
+      
+            if (selectedCharacters[i] === character) { 
+              selectedCharacters.splice(i, 1); 
+            }
+
+          }
+        }
+      }
+
+      function randomizeJobs() {
+        window.document.getElementById(`ichi-job`).innerHTML = "Ichiban: ";
+        window.document.getElementById(`ichi-job`).style.display = "none";
+        window.document.getElementById(`adachi-job`).innerHTML = "Adachi: ";
+        window.document.getElementById(`adachi-job`).style.display = "none";
+        window.document.getElementById(`nanba-job`).innerHTML = "Nanba: ";
+        window.document.getElementById(`nanba-job`).style.display = "none";
+        window.document.getElementById(`saeko-job`).innerHTML = "Saeko: ";
+        window.document.getElementById(`saeko-job`).style.display = "none";
+        window.document.getElementById(`joongi-job`).innerHTML = "Joon-gi Han: ";
+        window.document.getElementById(`joongi-job`).style.display = "none";
+        window.document.getElementById(`zhao-job`).innerHTML = "Zhao: ";
+        window.document.getElementById(`zhao-job`).style.display = "none";
+        window.document.getElementById(`eri-job`).innerHTML = "Eri: ";
+        window.document.getElementById(`eri-job`).style.display = "none";
+        window.document.getElementById('jobs_title').style.display = "unset";
+        var jobs = {
+          "ichi": ["Part-Timer", "Hero", "Bodyguard", "Host", "Dancer", "Wrecker", "Street Musician", "Chef", "Riot Police", "Fortune Teller"],
+          "adachi": ["Detective", "Bodyguard", "Wrecker", "Riot Police", "Dancer", "Street Musician", "Host", "Chef", "Fortune Teller"],
+          "nanba": ["Homeless", "Dancer", "Street Musician", "Bodyguard", "Chef", "Fortune Teller", "Host", "Riot Police", "Wrecker"],
+          "saeko": ["Junior Mistress", "Hostess", "Idol", "Night Queen", "Dealer"],
+          "joongi": ["Hitman", "Bodyguard", "Host", "Dancer", "Riot Police", "Wrecker", "Street Musician", "Chef", "Fortune Teller"],
+          "zhao": ["Mafia", "Street Musician", "Chef", "Host", "Dancer", "Bodyguard", "Fortune Teller", "Wrecker", "Riot Police"],
+          "eri": ["Office Clerk", "Idol", "Dealer", "Hostess", "Night Queen"]
+        };
+        
+        var dlc_jobs = {
+          "ichi": "Devil Rocker",
+          "adachi": "Devil Rocker",
+          "nanba": "Devil Rocker",
+          "saeko": "Matriarch",
+          "joongi": "Devil Rocker",
+          "zhao": "Devil Rocker",
+          "eri": "Matriarch"
+        };
+
+
+        var randomizedJobs = [];
+
+        for( var i = 0; i < selectedCharacters.length; i++) { 
+          if (window.document.getElementById('dlc').checked) {
+            var all_jobs = [].concat(jobs[selectedCharacters[i]], dlc_jobs[selectedCharacters[i]]);
+            var randomJob = _.sample(all_jobs);
+            var character = String(selectedCharacters[i]);
+            randomizedJobs.push({"job": [character, randomJob]})
+          }
+          else {
+            var randomJob = _.sample(jobs[selectedCharacters[i]]);
+            var character = String(selectedCharacters[i]);
+            randomizedJobs.push({"job": [character, randomJob]})
+          }  
+        }
+
+        if (randomizedJobs.length === 0) {
+          window.document.getElementById('jobs_title').style.display = "none";
+        }
+
+        for(var i = 0; i < randomizedJobs.length; i++) {
+          var element = window.document.getElementById(`${randomizedJobs[i].job[0]}-job`);
+          element.innerHTML += randomizedJobs[i].job[1] + "<br>";
+          element.style.display = "unset";
+        }
+      }
+    </script>
+  </body>
+</html>
