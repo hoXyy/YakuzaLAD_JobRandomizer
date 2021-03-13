@@ -1,5 +1,5 @@
 # Yakuza: Like a Dragon - Job Randomizer
-A simple program that randomizes a list of jobs for Yakuza: Like a Dragon, now available on the web!
+A simple program that randomizes a list of jobs for Yakuza: Like a Dragon, now available on the [web](https://yakuza7-job-randomizer.herokuapp.com/)!
 
 # Usage
 ![Program Image](https://cdn.discordapp.com/attachments/662715711017320524/820140507283587152/unknown.png)
